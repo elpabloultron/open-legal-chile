@@ -42,6 +42,7 @@ COMANDO_A_HERRAMIENTA = {
     "vigilar": "vigilante_analizar_resolucion",
     "caso": "caso_analizar",
     "vector": "busqueda_universal",
+    "neural": "gnn_predecir_enlaces",
 }
 
 

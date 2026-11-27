@@ -39,6 +39,7 @@ def test_declara_el_corpus_y_los_datos_como_paquetes():
     assert setuptools["package-data"]["doctrina"] == ["**/*.md"]
     assert "**/*.json" in setuptools["package-data"]["data"]
     assert "**/*.jsonl" in setuptools["package-data"]["data"]
+    assert "**/*.npz" in setuptools["package-data"]["data"]
 
 
 def test_el_corpus_existe_y_tiene_las_obras():

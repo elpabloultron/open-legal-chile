@@ -276,12 +276,13 @@ jobs:
           ui_app = respuestas[5]["result"]["contents"][0]
           assert ui_app["mimeType"] == "text/html;profile=mcp-app", ui_app.get("mimeType")
 
-          assert len(herramientas) == 112, f"{len(herramientas)} herramientas en el paquete instalado"
+          assert len(herramientas) == 114, f"{len(herramientas)} herramientas en el paquete instalado"
           for nombre in ("consulta_maestra", "cita_texto", "huggingface_search_dataset", "bcn_get_codigo",
                          "suite_doctor", "busqueda_universal", "skills_listar", "skill_ver",
                          "critique_documento", "generar_documento", "entrevista_estudio",
                          "ocr_plan_documento", "suite_instalar", "jurimetria_analizar_corpus",
-                         "jurimetria_exportar_investigacion", "app_abrir_grafo",
+                         "jurimetria_exportar_investigacion", "gnn_predecir_enlaces",
+                         "gnn_auditar_brechas_escrito", "app_abrir_grafo",
                          "app_abrir_calculadoras", "app_abrir_expediente"):
               assert nombre in herramientas, f"falta {nombre}"
           print(f"MCP OK: {len(herramientas)} herramientas")
@@ -298,7 +299,7 @@ jobs:
           datos = json.loads(texto[texto.index("{"):])
           assert datos["harnesses"] == ["claude-code"], datos
           assert datos["doctor"]["estado"] in ("ok", "degradado"), datos
-          assert datos["herramientas"] == 112, datos
+          assert datos["herramientas"] == 114, datos
           assert pathlib.Path("/tmp/proyecto/.mcp.json").exists(), "no escribió la configuración"
           print("instalar OK:", datos["harnesses"], "·", datos["doctor"]["estado"])
           PY

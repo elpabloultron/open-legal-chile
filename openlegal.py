@@ -143,6 +143,7 @@ Ejemplos de uso:
   openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (24 perfiles)
   openlegal caso <texto/ruta> -> Abre o crea expediente local con ingesta MD y subgrafo del caso
   openlegal vector "..."      -> Búsqueda semántica híbrida en los 9 Códigos y CPR (Dense + BM25)
+  openlegal neural [cmd]      -> Motores neuronales locales (status | predict "<norma>" | gaps "<texto>")
   openlegal plugin instalar   -> Instala el Plugin completo (MCP + 26 skills + 24 agentes + reglas) en tu harness
   openlegal integrar          -> Muestra y escribe la configuración MCP de tu harness (--escribir)
   openlegal serve-http        -> Inicia el servidor MCP Streamable HTTP on-premise (Zero Data Leak)
@@ -151,7 +152,7 @@ Ejemplos de uso:
   openlegal ci                -> Supervisa GitHub Actions y auto-repara fallos en CI
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "serve-http", "mcpb", "bench", "chat", "check", "doctor", "instalar", "plugin", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "cache", "graph", "agent", "agents", "caso", "vector", "ci"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "serve-http", "mcpb", "bench", "chat", "check", "doctor", "instalar", "plugin", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "cache", "graph", "agent", "agents", "caso", "vector", "neural", "ci"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -1020,6 +1021,37 @@ Ejemplos de uso:
         commit = args.query[0] if args.query else None
         rc = vigilar_y_reparar(commit_sha=commit, watch=True, auto_fix=True)
         sys.exit(rc)
+
+    elif args.comando == "neural":
+        from legal_gnn import obtener_motor_gnn
+        from neural_retriever import obtener_embedder_chileno, obtener_reranker_chileno
+
+        tokens = args.query or []
+        subcmd = tokens[0].lower() if tokens else "status"
+        print_banner()
+        if subcmd == "predict":
+            consulta_p = " ".join(tokens[1:]).strip() or "Art. 2314 Código Civil"
+            res = obtener_motor_gnn().predecir_enlaces(consulta_p, relacion="todas", top_k=8)
+            print(json.dumps(res, ensure_ascii=False, indent=2))
+        elif subcmd == "gaps":
+            arg_txt = " ".join(tokens[1:]).strip()
+            ruta_f = pathlib.Path(arg_txt) if arg_txt else None
+            cuerpo = ruta_f.read_text(encoding="utf-8") if (ruta_f and ruta_f.is_file()) else arg_txt
+            if not cuerpo:
+                print("⚠️ Uso: openlegal neural gaps \"<texto o ruta de borrador>\"")
+                return
+            res = obtener_motor_gnn().auditar_brechas_escrito(cuerpo, top_k=8)
+            print(json.dumps(res, ensure_ascii=False, indent=2))
+        else:
+            emb = obtener_embedder_chileno()
+            rr = obtener_reranker_chileno()
+            gnn = obtener_motor_gnn()
+            print(json.dumps({
+                "embedder": {"disponible": emb.modelo_disponible, "backend": emb.backend, "dim": emb.dim, "metadata": emb.metadata},
+                "reranker": {"disponible": rr.modelo_disponible, "backend": rr.backend},
+                "legal_gnn": gnn.estado_modelo(),
+            }, ensure_ascii=False, indent=2))
+        return
 
     else:
         menu_interactivo(parser)

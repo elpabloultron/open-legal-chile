@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openlegal-chile"
-version = "2.0.0"
+version = "2.1.0"
 description = "Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de la República de Chile"
 readme = "README.md"
 authors = [
@@ -141,12 +141,14 @@ py-modules = [
     "integraciones_harness",
     "jurimetria",
     "legal_canvas",
+    "legal_gnn",
     "legal_graphify",
     "legal_open_jev",
     "mcp_apps_engine",
     "mcp_http_server",
     "mcp_server",
     "modulo_ambiental",
+    "neural_retriever",
     "notebooklm_connector",
     "ocr_decision",
     "online_library_sync",
@@ -224,7 +226,7 @@ namespaces = true
 # motor los busca (BASE_DIR/doctrina y BASE_DIR/data).
 [tool.setuptools.package-data]
 doctrina = ["**/*.md"]
-data = ["**/*.json", "**/*.jsonl"]
+data = ["**/*.json", "**/*.jsonl", "**/*.npz"]
 # El puntero al mapa del corpus publicado en HF (revisión fija + sha256) y las versiones con que
 # se construye: el cliente instalado los necesita para descargar y verificar el mapa.
 mapa_corpus = ["puntero.json", "constraints-constructor.txt"]

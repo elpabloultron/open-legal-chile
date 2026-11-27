@@ -453,6 +453,22 @@ class LegalCritiqueEngine:
         else:
             lineas.append("- Formalidades de patrocinio y tramitación digital conformes.")
 
+        try:
+            from legal_gnn import obtener_motor_gnn
+
+            motor_gnn = obtener_motor_gnn()
+            if motor_gnn.modelo_disponible:
+                brechas = motor_gnn.auditar_brechas_escrito(text, top_k=4)
+                sugerencias = (brechas.get("normas_sugeridas") or [])[:4]
+                if sugerencias:
+                    lineas.append("\n#### 🧠 Cobertura Normativa Sugerida (LegalGNN — verificar con `cita_texto` en BCN):")
+                    for sug in sugerencias:
+                        lineas.append(
+                            f"- `{sug.get('label', '')}` (afinidad estructural GNN: {float(sug.get('probabilidad', 0.0)):.2%}; verificar texto vigente en BCN antes de incorporar)."
+                        )
+        except Exception:  # noqa: BLE001 — sección consultiva no bloqueante
+            pass
+
         return "\n".join(lineas)
 
     def critique(

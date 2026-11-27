@@ -448,6 +448,69 @@ TOOLS = [
             "required": ["tema"]
         }
     },
+    {
+        "name": "gnn_predecir_enlaces",
+        "description": (
+            "Predice concordancias normativas, jurisprudencia e instituciones doctrinales faltantes o "
+            "estructuralmente esperadas sobre LegalGraphify usando la Red Neuronal de Grafos local "
+            "(LegalGNN, int8). Devuelve candidatos ordenados por probabilidad (0-1) con advertencia "
+            "de verificación literal obligatoria vía cita_texto."
+        ),
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "nodo_o_consulta": {
+                    "type": "string",
+                    "description": "Norma, ID de nodo o institución jurídica a analizar (ej. 'Art. 2314 Código Civil', 'Art. 161 Código del Trabajo', 'precario')"
+                },
+                "relacion": {
+                    "type": "string",
+                    "enum": ["norma", "juris", "estruct", "todas"],
+                    "description": "Familia de relación a predecir ('norma', 'juris', 'estruct' o 'todas'; por defecto 'norma')",
+                    "default": "norma"
+                },
+                "top_k": {
+                    "type": "integer",
+                    "description": "Número máximo de enlaces predichos a devolver (por defecto 10)",
+                    "default": 10
+                },
+                "tipos_destino": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "Filtro opcional por tipo de nodo destino (ej. ['norma', 'articulo_legal', 'sentencia_cs'])"
+                },
+                "incluir_existentes": {
+                    "type": "boolean",
+                    "description": "Si es True, incluye también enlaces ya existentes en el grafo junto a los nuevos predichos",
+                    "default": False
+                }
+            },
+            "required": ["nodo_o_consulta"]
+        }
+    },
+    {
+        "name": "gnn_auditar_brechas_escrito",
+        "description": (
+            "Audita un borrador judicial, demanda o informe detectando las normas chilenas invocadas y "
+            "sugiriendo con LegalGNN normas concordantes, instituciones dogmáticas y jurisprudencia "
+            "estructuralmente vinculadas que podrían haberse omitido (requieren cita_texto en BCN)."
+        ),
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "texto": {
+                    "type": "string",
+                    "description": "Texto completo o extracto sustantivo del escrito jurídico a auditar"
+                },
+                "top_k": {
+                    "type": "integer",
+                    "description": "Máximo de sugerencias normativas a devolver (por defecto 8)",
+                    "default": 8
+                }
+            },
+            "required": ["texto"]
+        }
+    },
 ]
 
 
@@ -751,14 +814,44 @@ def despachar(name: str, args: dict) -> Any:
         org_res = _compactar_organismos_hallazgos(
             organismos.get("resultados", {}), bool(organismos.get("citas"))
         )
+        hallazgos = {
+            "huggingface": hf_res,
+            "doctrina": doc_res,
+            "normas": normas_res,
+            "subgrafo": subgrafo,
+            "organismos": org_res,
+        }
+        try:
+            from legal_gnn import obtener_motor_gnn
+
+            motor_gnn = obtener_motor_gnn()
+            if motor_gnn.modelo_disponible:
+                pred_gnn = motor_gnn.predecir_enlaces(consulta, relacion="todas", top_k=3)
+                sug_gnn = [
+                    p for p in (pred_gnn.get("predicciones") or [])
+                    if float(p.get("probabilidad", 0.0)) >= 0.70
+                ]
+                if not sug_gnn and normas:
+                    prim = normas[0]
+                    etq_n = (
+                        f"{prim.get('codigo', '')} Art. {prim.get('articulo', '')}"
+                        if prim.get("codigo")
+                        else f"Ley {prim.get('ley_numero') or prim.get('ley', '')}"
+                    ).strip()
+                    if etq_n:
+                        pred_gnn = motor_gnn.predecir_enlaces(etq_n, relacion="todas", top_k=3)
+                        sug_gnn = [
+                            p for p in (pred_gnn.get("predicciones") or [])
+                            if float(p.get("probabilidad", 0.0)) >= 0.70
+                        ]
+                if sug_gnn:
+                    hallazgos["sugerencias_gnn"] = sug_gnn[:3]
+        except Exception:  # noqa: BLE001 — enriquecimiento estructural nunca bloqueante
+            pass
         mapa_compacto = {k: v for k, v in mapa.items() if k != "conteos"} if isinstance(mapa, dict) else mapa
         respuesta = {
             "consulta": consulta,
-            "hallazgos": {"huggingface": hf_res,
-                          "doctrina": doc_res,
-                          "normas": normas_res,
-                          "subgrafo": subgrafo,
-                          "organismos": org_res},
+            "hallazgos": hallazgos,
             "citas": citas,
             "faltantes": faltantes,
             "como_citar": "Pegá cada cita con su texto literal. En conversación: la respuesta primero y las "
@@ -1077,6 +1170,29 @@ def despachar(name: str, args: dict) -> Any:
             semilla=int(args.get("semilla") or 42),
             coleccion_longitudinal=str(args.get("coleccion_longitudinal") or "cs"),
             motor=legal_graphify_engine,
+        )
+    elif name == "gnn_predecir_enlaces":
+        consulta_n = str(args.get("nodo_o_consulta") or "").strip()
+        if not consulta_n:
+            return {"error": "El parámetro 'nodo_o_consulta' es obligatorio."}
+        from legal_gnn import obtener_motor_gnn
+
+        return obtener_motor_gnn().predecir_enlaces(
+            consulta_n,
+            relacion=str(args.get("relacion") or "norma"),
+            top_k=int(args.get("top_k") or 10),
+            tipos_destino=args.get("tipos_destino"),
+            incluir_existentes=bool(args.get("incluir_existentes", False)),
+        )
+    elif name == "gnn_auditar_brechas_escrito":
+        texto_esc = str(args.get("texto") or "").strip()
+        if not texto_esc:
+            return {"error": "El parámetro 'texto' es obligatorio."}
+        from legal_gnn import obtener_motor_gnn
+
+        return obtener_motor_gnn().auditar_brechas_escrito(
+            texto_esc,
+            top_k=int(args.get("top_k") or 8),
         )
     return None
 

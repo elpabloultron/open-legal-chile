@@ -40,9 +40,9 @@ window.OLC_AREAS_DATA = [
         },
         {
           label: "Auditoría Goldfish",
-          title: "3. Control de citas y examen contradictorio previo",
-          detail: "El modo Goldfish evalúa el borrador con contexto cero desde la perspectiva de un Ministro Relator, la contraparte litigante y un auditor de citas BCN/HF, eliminando el sesgo de confirmación.",
-          chips: ["critique_documento (goldfish)", "verificar_citas_escrito", "0 alucinaciones"],
+          title: "3. Control de citas, brechas LegalGNN y examen contradictorio",
+          detail: "El modo Goldfish evalúa el borrador con contexto cero desde Ministro Relator, contraparte litigante y auditor BCN/HF, apoyado por LegalGNN (gnn_auditar_brechas_escrito) para sugerir normas concordantes potencialmente omitidas.",
+          chips: ["critique_documento (goldfish)", "gnn_auditar_brechas_escrito", "0 alucinaciones"],
           outputLabel: "Hallazgos preventivos detectados",
           output: "✓ Todas las normas verificadas contra BCN · ⚠ Sugerencia: reforzar nexo causal y acompañar certificado de vínculo afectivo antes del término probatorio."
         },
@@ -349,8 +349,8 @@ window.OLC_AREAS_DATA = [
     name: "Investigación Jurídica, Ciencia de Datos & Jurimetría",
     tagline: "82.717 documentos en Hugging Face, grafo LegalGraphify + MCP App visual, 5 tablas Apache Parquet, DuckDB y ChileLegalBench v1.0 (105/105).",
     badge: "Área 07 · Investigación y Publicaciones",
-    summary: "Convierte el corpus jurídico chileno en un laboratorio empírico reproducible para tesis de magíster/doctorado, artículos científicos (WoS/Scielo/RChD), observatorios judiciales y centros de estudio: análisis de redes de citación (PageRank + HITS), explorador visual MCP App (app_abrir_grafo), benchmark reproducible ChileLegalBench v1.0 (105 casos deterministas, 100 % offline) y muestreo ciego con κ de Cohen.",
-    connectors: ["Hugging Face (82.717 entradas con SHA fijado)", "5 Tablas Apache Parquet (12,45 MB) + DuckDB SQL", "LegalGraphify Multiplex + MCP App ui:// (app_abrir_grafo)", "ChileLegalBench v1.0 (105 casos · 100 %)", "Módulo jurimetria.py (PageRank, HITS, κ de Cohen)"],
+    summary: "Convierte el corpus jurídico chileno en un laboratorio empírico reproducible para tesis de magíster/doctorado, artículos científicos (WoS/Scielo/RChD), observatorios judiciales y centros de estudio: redes de citación (PageRank + HITS), modelos neuronales locales (Bi-Encoder chileno y LegalGNN Link Predictor sobre 31.600 nodos), explorador visual MCP App (app_abrir_grafo), ChileLegalBench v1.0 (105/105) y muestreo ciego con κ de Cohen.",
+    connectors: ["Hugging Face (82.717 entradas con SHA fijado)", "5 Tablas Apache Parquet + DuckDB SQL", "LegalGraphify + LegalGNN (AUC 0,8660) + MCP App", "ChileLegalBench v1.0 (105 casos · 100 %)", "Módulo jurimetria.py (PageRank, HITS, κ de Cohen)"],
     agents: ["agente-dogmatico", "agente-investigacion-ia", "agente-ingestor"],
     skills: ["chilean-dogmatic-graphify", "chilean-doctrine-ingestion", "chilean-notebooklm-grounding"],
     deliverables: [

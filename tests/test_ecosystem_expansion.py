@@ -249,5 +249,5 @@ class TestMCPServerNewTools:
         assert len(res) >= 1
 
     def test_mcp_total_tools_count(self):
-        # 112: 109 previas + 3 MCP Apps interactivas ui:// (grafo, calculadoras, expediente).
-        assert len(TOOLS) == 112
+        # 114: 112 de v2.0.0 + gnn_predecir_enlaces y gnn_auditar_brechas_escrito (v2.1.0).
+        assert len(TOOLS) == 114

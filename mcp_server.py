@@ -409,6 +409,8 @@ ORDEN_ORIGEN: List[str] = [
     "verificar_citas_escrito",
     "jurimetria_analizar_corpus",
     "jurimetria_exportar_investigacion",
+    "gnn_predecir_enlaces",
+    "gnn_auditar_brechas_escrito",
     "indicadores_economicos_chile",
     "calcular_plazo_procesal",
     "calcular_finiquito_laboral",
@@ -996,7 +998,8 @@ TOOL_PROFILES: Dict[str, List[str]] = {
         "caso_analizar", "caso_ejecutar", "bcn_get_codigo", "bcn_get_ley",
         "pjud_search_jurisprudencia", "pjud_analizar_sentencia", "pjud_interpretar_proveido",
         "recurso_proteccion_generar", "cpc_validar_mandato", "doctrina_search",
-        "doctrina_get_institucion", "export_brief_ojv", "compile_legal_dossier", "ocr_extract_pdf"
+        "doctrina_get_institucion", "gnn_predecir_enlaces", "gnn_auditar_brechas_escrito",
+        "export_brief_ojv", "compile_legal_dossier", "ocr_extract_pdf"
     ],
     "regulatorio": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_ley", "cgr_search_jurisprudencia", "cgr_search_auditorias",
@@ -1022,7 +1025,8 @@ TOOL_PROFILES: Dict[str, List[str]] = {
         "graphify_trazar_camino", "graphify_explicar_institucion", "graphify_analizar_impacto",
         "graphify_god_nodes", "graphify_resumen_comunidades", "academia_judicial_buscar_guias",
         "grafo_ver_corpus", "huggingface_search_dataset",
-        "jurimetria_analizar_corpus", "jurimetria_exportar_investigacion"
+        "jurimetria_analizar_corpus", "jurimetria_exportar_investigacion",
+        "gnn_predecir_enlaces", "gnn_auditar_brechas_escrito"
     ],
     "clinica": _PROTOCOLO_BASE + [
         "clinica_lenguaje_claro", "clinica_intake_social", "clinica_auditar_borrador",
@@ -1034,7 +1038,7 @@ TOOL_PROFILES: Dict[str, List[str]] = {
 def get_active_tools(profile_name: Optional[str] = None) -> List[Dict[str, Any]]:
     """Devuelve las herramientas activas según el perfil solicitado o la variable OPENLEGAL_PROFILE.
 
-    Perfiles temáticos y `router` reducen el contexto inicial; `"full"`, `"completo"` o vacío cargan las 112 herramientas.
+    Perfiles temáticos y `router` reducen el contexto inicial; `"full"`, `"completo"` o vacío cargan las 114 herramientas.
     """
     prof = (profile_name or os.environ.get("OPENLEGAL_PROFILE") or "").lower().strip()
     if prof and prof not in ("full", "completo") and prof in TOOL_PROFILES:
@@ -1171,7 +1175,7 @@ def procesar_mensaje(req: Any, tools_to_expose: List[Dict[str, Any]]) -> Optiona
                 "serverInfo": {
                     "name": "open-legal-chile-mcp",
                     "title": "Open Legal Chile",
-                    "version": "2.0.0"
+                    "version": "2.1.0"
                 },
                 "instructions": INSTRUCCIONES,
             })

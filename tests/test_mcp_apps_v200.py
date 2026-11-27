@@ -48,7 +48,7 @@ def test_recursos_ui_disponibles_y_legibles() -> None:
 
 def test_herramientas_exponen_meta_ui_y_entrypoints() -> None:
     por_nombre = {t["name"]: t for t in mcp_server.TOOLS}
-    assert len(por_nombre) == 112
+    assert len(por_nombre) == 114
     for nombre in APP_TOOLS:
         tool = por_nombre[nombre]
         meta = tool.get("_meta") or {}

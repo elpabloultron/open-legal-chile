@@ -1186,8 +1186,10 @@ def search_doctrina_hibrida(
         rrf_scores[iid] = rrf_scores.get(iid, 0.0) + 1.0 / (k_rrf + rank_idx)
 
     ordenados = sorted(rrf_scores.items(), key=lambda kv: (-kv[1], -sem_map.get(kv[0], 0.0), kv[0]))
-    salida: List[Dict[str, Any]] = []
-    for iid, rrf_sc in ordenados[: max(1, int(limit))]:
+    top_n = max(1, int(limit))
+    pool_size = max(top_n * 3, 12)
+    candidatos_rrf: List[Dict[str, Any]] = []
+    for iid, rrf_sc in ordenados[:pool_size]:
         item = por_id.get(iid)
         if not item:
             continue
@@ -1195,8 +1197,25 @@ def search_doctrina_hibrida(
         item["rrf_score"] = round(rrf_sc, 5)
         item["semantic_score"] = round(float(sem_map.get(iid, 0.0)), 4)
         item["modo_busqueda"] = f"hibrido_rrf:{engine.backend}"
-        salida.append(item)
-    return salida
+        candidatos_rrf.append(item)
+
+    if len(candidatos_rrf) >= 3:
+        try:
+            from neural_retriever import obtener_reranker_chileno
+
+            reranker = obtener_reranker_chileno()
+            if reranker.modelo_disponible:
+                return reranker.rerank(
+                    query,
+                    candidatos_rrf,
+                    title_key="institucion",
+                    text_key="definicion",
+                    top_k=top_n,
+                    peso_neuronal=0.45,
+                )
+        except Exception:  # noqa: BLE001 — degradación transparente al RRF base
+            pass
+    return candidatos_rrf[:top_n]
 
 
 if __name__ == "__main__":

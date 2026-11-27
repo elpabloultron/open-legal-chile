@@ -1,0 +1,70 @@
+{
+  "embeddings_y_reranker": {
+    "backend": "chile_neural_embed_v1",
+    "version": "1.0.0",
+    "total_pares": 14612,
+    "pares_train": 13151,
+    "pares_val_held_out": 1461,
+    "vocab_size": 8500,
+    "svd_dim": 160,
+    "sem_dim": 256,
+    "lex_dim": 128,
+    "embed_dim": 384,
+    "peso_semantico": 0.62,
+    "peso_lexico": 0.78,
+    "infonce_loss_final": 0.519,
+    "tiempo_entrenamiento_s": 52.95,
+    "peso_artefacto_mb": 2.74,
+    "baseline_lexical_val": {
+      "recall_at_1_pct": 81.45,
+      "recall_at_5_pct": 90.14,
+      "recall_at_10_pct": 92.81,
+      "mrr_at_10": 0.8534
+    },
+    "chile_neural_val": {
+      "recall_at_1_pct": 83.64,
+      "recall_at_5_pct": 94.73,
+      "recall_at_10_pct": 97.33,
+      "mrr_at_10": 0.8858
+    },
+    "reranker_val": {
+      "val_queries": 1461,
+      "biencoder_top20_recall1_pct": 83.64,
+      "reranker_top20_recall1_pct": 93.63,
+      "biencoder_top20_mrr": 0.8867,
+      "reranker_top20_mrr": 0.9548
+    }
+  },
+  "legal_gnn_v1": {
+    "backend": "legal_gnn_v1",
+    "version": "1.0.0",
+    "arquitectura": "Relational 2-hop GraphSAGE/APPNP + Spectral SVD + DistMult (int8)",
+    "familias_relacion": [
+      "norma",
+      "juris",
+      "estruct"
+    ],
+    "n_nodos": 31600,
+    "n_aristas_unicas": 172608,
+    "n_aristas_train": 146716,
+    "n_aristas_test_held_out": 25892,
+    "dim_embedding": 64,
+    "tau": 9.9655,
+    "baseline_adamic_adar_val": {
+      "roc_auc": 0.6915,
+      "hits_at_10_pct": 44.05,
+      "hits_at_20_pct": 56.9,
+      "mrr": 0.2544,
+      "evaluados": 2000
+    },
+    "legal_gnn_val": {
+      "roc_auc": 0.866,
+      "hits_at_10_pct": 63.0,
+      "hits_at_20_pct": 77.85,
+      "mrr": 0.354,
+      "evaluados": 2000
+    },
+    "tiempo_entrenamiento_s": 93.33,
+    "peso_artefacto_mb": 2.979
+  }
+}

@@ -3,7 +3,7 @@
 Una instalación, todos los clientes. El objetivo es que **ningún usuario tenga que abrir una
 terminal más que para este comando** ni editar archivos de configuración a mano.
 
-Hay dos caminos y los dos dejan las **112 herramientas MCP** visibles (9 en perfil `router` por defecto):
+Hay dos caminos y los dos dejan las **114 herramientas MCP** visibles (9 en perfil `router` por defecto):
 
 | Camino | Requisito | Comando del servidor |
 |---|---|---|
@@ -26,7 +26,7 @@ claude plugin marketplace add elpabloultron/open-legal-chile
 claude plugin install open-legal-chile@open-legal-chile
 ```
 
-Al activarlo, Claude Code pide dos valores opcionales: el **perfil** de herramientas (vacío = `router`, `'full'` = las 112)
+Al activarlo, Claude Code pide dos valores opcionales: el **perfil** de herramientas (vacío = `router`, `'full'` = las 114)
 y el **token de Hugging Face**. Las skills por materia (`chilean-employment-legal`, etc.) también se
 pueden instalar sueltas; cada una trae el plugin principal como dependencia.
 

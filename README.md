@@ -9,13 +9,13 @@
   <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"><img src="https://img.shields.io/badge/Hugging_Face-Datasets_Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Dataset"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Corpus_MD-7.399_Obras_y_Artículos-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
   <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?style=for-the-badge&logo=pypi&logoColor=white&color=blue" alt="PyPI Version"/></a>
-  <a href="https://github.com/elpabloultron/open-legal-chile/releases/tag/v2.0.0"><img src="https://img.shields.io/badge/Release-v2.0.0-blueviolet?style=for-the-badge&logo=github" alt="Release v2.0.0"/></a>
+  <a href="https://github.com/elpabloultron/open-legal-chile/releases/tag/v2.1.0"><img src="https://img.shields.io/badge/Release-v2.1.0-blueviolet?style=for-the-badge&logo=github" alt="Release v2.1.0"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
   <img src="https://img.shields.io/badge/Auditor%C3%ADa_360%C2%B0-Distinci%C3%B3n_M%C3%A1xima-success?style=for-the-badge&logo=security&logoColor=white" alt="Auditoría 360"/>
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
-  <img src="https://img.shields.io/badge/Herramientas_MCP-112_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
+  <img src="https://img.shields.io/badge/Herramientas_MCP-114_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-1.296%2F1.296_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-1.302%2F1.302_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -27,7 +27,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (112 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-112-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (114 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-114-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -91,7 +91,8 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 112 Herramientas Forenses Registradas (Suite Edition · Perfil router)       │
+│   • 114 Herramientas Forenses Registradas (Suite Edition · Perfil router)       │
+│   • Motores Neuronales Locales (`neural_retriever.py` + `legal_gnn.py`, int8)   │
 │   • Espacios de Casos Locales con LegalGraphify (case_workspace.py, case_graph.py)     │
 │   • Motor Vectorial Híbrido Dense + BM25 con RRF (vector_engine.py)                     │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
@@ -132,7 +133,7 @@ Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process A
    - **Archivo:** `legal_open_jev.py`
    - **Latencia:** `< 5 ms` en CPU local, 100% offline, cero costo de tokens y confidencialidad inviolable (Art. 247 CP).
    - **Primitivas:**
-     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 112 herramientas MCP a 3-5 pertinentes a la materia (perfil `OPENLEGAL_PROFILE=router`, ahorro >80 % de tokens de prompt por turno).
+     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 114 herramientas MCP a 3-5 pertinentes a la materia (perfil `OPENLEGAL_PROFILE=router`, ahorro >80 % de tokens de prompt por turno).
      - `JevNoul`: Compuertas binarias estrictas de validez formal: plazos fatales de caducidad laboral (Art. 168 CT: 60/90 días), prescripción civil (Arts. 2514-2515 CC), plazos constitucionales de protección (Art. 20 CPR: 30 días corridos), cómputo procesal de días hábiles judiciales (Art. 66 CPC), validación matemática de RUT Módulo 11 y facultades especiales de personería (Art. 7 inc. 2 CPC).
      - `JevScore`: Ponderación local ultrarrápida de relevancia temática.
 
@@ -151,6 +152,10 @@ Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process A
    - **MCP Apps (SEP-1865 + `structuredContent`):** Tres interfaces HTML autocontenidas (`ui://open-legal-chile/{graphify,calculadoras,expediente}.html`, `<= 600 KB` c/u) accesibles mediante `app_abrir_grafo`, `app_abrir_calculadoras` y `app_abrir_expediente` dentro de clientes compatibles (Antigravity, Claude Desktop) con llamadas locales `callServerTool`.
    - **Despliegue On-Premise (`/mcp` + Docker + `.mcpb`):** Servidor Streamable HTTP stdlib (`openlegal serve-http` / `openlegal-mcp-http`) con `Mcp-Session-Id`, SSE (`text/event-stream`), Bearer auth (`OPENLEGAL_AUTH_TOKEN`), allowlist de `Origin`, [`Dockerfile`](Dockerfile) / [`docker-compose.yml`](docker-compose.yml) (`docs/despliegue-on-premise.md`) y empaquetador `.mcpb` (`openlegal mcpb`).
    - **Benchmark Soberano (`ChileLegalBench v1.0`):** 105 casos deterministas reproducibles offline (`openlegal bench` / [`evals/chile_legal_bench.py`](evals/chile_legal_bench.py), [`docs/chile_legal_bench.md`](docs/chile_legal_bench.md)) con 100 % de acierto en vigencia normativa BCN, plazos CPC/CT/Ley 19.880, cuantías UF/UTM, validaciones CBR/RUT/mandato, triage CPU, grounding y bloqueo de *Common Law*.
+
+5. **🧬 Redes Neuronales Jurídicas Locales (`v2.1.0` — `5,719 MB` NumPy puro, `allow_pickle=False`):**
+   - **Bi-Encoder Contrastivo + Reranker Monotónico Chileno (`neural_retriever.py`):** entrenado con pérdida InfoNCE + *title-dropout* sobre `14 612` pares jurídicos chilenos y vocabulario legal específico (`data/modelos/chile_embed_v1.npz`, `2,740 MB`), elevando `Recall@1` en consultas no vistas de `81,45 %` (léxico) a **`93,63 %`** (`MRR = 0,9548`). Soporta override opcional GPU/ONNX.
+   - **`LegalGNN` Link Predictor (`legal_gnn.py`):** red neuronal relacional sobre `31 600` nodos y `172 608` aristas sustantivas limpias de `LegalGraphify` (`data/modelos/legal_gnn_v1.npz`, `2,979 MB`, **ROC-AUC = `0,8660`** y **Hits@10 = `63,00 %`** vs. `0,6915` / `44,05 %` Adamic-Adar en split held-out 15 %). Expone `gnn_predecir_enlaces`, `gnn_auditar_brechas_escrito`, `sugerencias_gnn` en `consulta_maestra`, sección consultiva en `critique_documento` (modo `goldfish`) y `openlegal neural` ([`docs/modelos_neuronales.md`](docs/modelos_neuronales.md)).
 
 ---
 
@@ -267,9 +272,9 @@ medición del ahorro en [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (112 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (114 Herramientas Oficiales)
 
-El servidor MCP expone **112 herramientas oficiales** (con modo `OPENLEGAL_PROFILE=router` de 9 herramientas núcleo + descubrimiento dinámico `descubrir_herramientas` / `invocar_herramienta`, `structuredContent` JSON estructurado y 3 MCP Apps `ui://`) categorizadas funcionalmente:
+El servidor MCP expone **114 herramientas oficiales** (con modo `OPENLEGAL_PROFILE=router` de 9 herramientas núcleo + descubrimiento dinámico `descubrir_herramientas` / `invocar_herramienta`, `structuredContent` JSON estructurado y 3 MCP Apps `ui://`) categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -422,6 +427,8 @@ El servidor MCP expone **112 herramientas oficiales** (con modo `OPENLEGAL_PROFI
 | `graphify_god_nodes` | `top_n` *(int, opc)*, `solo_sustantivo` *(bool, opc)* | Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico chileno según PageRank y centralidad (con ponderación multiplex opcional para atenuar súper-hubs editoriales). |
 | `jurimetria_analizar_corpus` | `modo` *(str, opc)*, `coleccion` *(str, opc)*, `norma_filtro` *(str, opc)*, `top_k` *(int, opc)* | Análisis jurimétrico e investigación académica empírica: PageRank dirigido y HITS (Authority/Hub) sobre la red sustantiva de citaciones, auditoría de resolución de entidades y ruido OCR, más estadísticas longitudinales exactas (año, sala CS, recurso, resultado normalizado y Baremo UF/CLP) con trazabilidad de revisión HF. |
 | `jurimetria_exportar_investigacion` | `tema` *(str)*, `carpeta_salida` *(str, opc)*, `formatos` *(list, opc)*, `n_muestra` *(int, opc)* | Exporta un paquete reproducible de investigación jurídica: tablas CSV (R/Stata/Python), GraphML (Gephi/Cytoscape), Apache Parquet, muestra estratificada ciega para validación intercodificador (precisión, cobertura, F1, κ de Cohen), `METODOLOGIA_REPRODUCIBLE.md` y citas BibTeX (`referencia.bib`). |
+| `gnn_predecir_enlaces` | `nodo_o_consulta` *(str)*, `relacion` *(str, opc)*, `top_k` *(int, opc)* | Predice concordancias normativas, jurisprudencia e instituciones estructuralmente esperadas sobre LegalGraphify usando `LegalGNN` (int8 local), con verificación obligatoria en BCN vía `cita_texto`. |
+| `gnn_auditar_brechas_escrito` | `texto` *(str)*, `top_k` *(int, opc)* | Detecta normas invocadas en un borrador y sugiere artículos concordantes, doctrina y jurisprudencia potencialmente omitidos mediante `LegalGNN`. |
 
 ### T. Recursos Constitucionales y Estandarización OJV
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -782,7 +789,7 @@ Open Legal Chile está licenciado bajo la **Licencia Apache 2.0** ([`LICENSE`](L
 
 ## 🎓 13. Formación Ejecutiva, Consultoría «Llave en Mano» On-Premise y Alianzas Institucionales
 
-El núcleo de **Open Legal Chile** (código fuente bajo licencia Apache 2.0, las 112 herramientas MCP, las 3 MCP Apps `ui://`, los 24 agentes autónomos, las 26 skills jurídicas y el dataset público en Hugging Face) es y seguirá siendo **100 % abierto, gratuito y soberano**. Para estudios jurídicos, gerencias legales, reparticiones públicas y facultades de Derecho que requieren capacitación especializada o despliegues corporativos privados, ofrecemos tres líneas de colaboración directa:
+El núcleo de **Open Legal Chile** (código fuente bajo licencia Apache 2.0, las 114 herramientas MCP, las 3 MCP Apps `ui://`, los motores neuronales locales, los 24 agentes autónomos, las 26 skills jurídicas y el dataset público en Hugging Face) es y seguirá siendo **100 % abierto, gratuito y soberano**. Para estudios jurídicos, gerencias legales, reparticiones públicas y facultades de Derecho que requieren capacitación especializada o despliegues corporativos privados, ofrecemos tres líneas de colaboración directa:
 
 ### 🏛️ Propuesta 1 — Charlas Magistrales, Bootcamps Prácticos y Capacitación In-Company / SENCE / Académica
 Programas de formación ejecutiva y talleres prácticos (*hands-on*) dirigidos a socios y asociados de estudios jurídicos, fiscalías corporativas, departamentos jurídicos del Estado, colegios de abogados y programas de postgrado:

@@ -2,9 +2,9 @@
   "manifest_version": "0.3",
   "name": "open-legal-chile",
   "display_name": "Open Legal Chile",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Suite jurídica soberana para el Derecho Continental de Chile (Civil Law): MCP local-first con fuentes BCN, PJUD, CGR, DT, SII, SMA, CMF, TDLC y LegalGraphify.",
-  "long_description": "Open Legal Chile entrega inteligencia jurídica verificable exclusivamente bajo el ordenamiento de la República de Chile. Incluye 112 herramientas MCP, MCP Apps interactivas (ui://), calculadoras forenses deterministas, redlining DOCX nativo, corpus canónico en Hugging Face y 26 skills especializadas con 24 agentes.",
+  "long_description": "Open Legal Chile entrega inteligencia jurídica verificable exclusivamente bajo el ordenamiento de la República de Chile. Incluye 114 herramientas MCP, Bi-Encoder/Reranker chileno y LegalGNN locales, MCP Apps interactivas (ui://), calculadoras forenses deterministas, redlining DOCX nativo, corpus canónico en Hugging Face y 26 skills especializadas con 24 agentes.",
   "author": {
     "name": "Pablo Benavides Jorquera",
     "email": "pablobenavidesjorquera@gmail.com",
@@ -24,7 +24,7 @@
       "command": "uvx",
       "args": [
         "--from",
-        "openlegal-chile==2.0.0",
+        "openlegal-chile==2.1.0",
         "openlegal-mcp"
       ],
       "env": {
@@ -37,7 +37,7 @@
     "profile": {
       "type": "string",
       "title": "Perfil de herramientas MCP",
-      "description": "Por defecto 'router' (9 herramientas núcleo + descubrimiento dinámico). Usa 'full' para las 112 herramientas o el nombre de un área (laboral, litigios, regulatorio, corporativo, inmobiliario, dogmatico, clinica).",
+      "description": "Por defecto 'router' (9 herramientas núcleo + descubrimiento dinámico). Usa 'full' para las 114 herramientas o el nombre de un área (laboral, litigios, regulatorio, corporativo, inmobiliario, dogmatico, clinica).",
       "default": "router",
       "required": false
     },

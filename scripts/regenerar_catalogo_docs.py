@@ -39,7 +39,7 @@ def _clasificar_tool(nombre: str) -> str:
         return "Inmobiliario y CBR"
     if n.startswith((
         "graphify_", "grafo_", "doctrina_", "huggingface_", "academia_judicial",
-        "biblioteca_", "jurimetria_", "notebooklm_", "generar_grafo",
+        "biblioteca_", "jurimetria_", "gnn_", "notebooklm_", "generar_grafo",
     )):
         return "Grafo, Doctrina y Jurimetría"
     if n.startswith(("grado_", "clinica_")):

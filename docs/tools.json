@@ -3041,6 +3041,81 @@
     }
   },
   {
+    "name": "gnn_predecir_enlaces",
+    "description": "Predice concordancias normativas, jurisprudencia e instituciones doctrinales faltantes o estructuralmente esperadas sobre LegalGraphify usando la Red Neuronal de Grafos local (LegalGNN, int8). Devuelve candidatos ordenados por probabilidad (0-1) con advertencia de verificación literal obligatoria vía cita_texto.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "nodo_o_consulta": {
+          "type": "string",
+          "description": "Norma, ID de nodo o institución jurídica a analizar (ej. 'Art. 2314 Código Civil', 'Art. 161 Código del Trabajo', 'precario')"
+        },
+        "relacion": {
+          "type": "string",
+          "enum": [
+            "norma",
+            "juris",
+            "estruct",
+            "todas"
+          ],
+          "description": "Familia de relación a predecir ('norma', 'juris', 'estruct' o 'todas'; por defecto 'norma')",
+          "default": "norma"
+        },
+        "top_k": {
+          "type": "integer",
+          "description": "Número máximo de enlaces predichos a devolver (por defecto 10)",
+          "default": 10
+        },
+        "tipos_destino": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Filtro opcional por tipo de nodo destino (ej. ['norma', 'articulo_legal', 'sentencia_cs'])"
+        },
+        "incluir_existentes": {
+          "type": "boolean",
+          "description": "Si es True, incluye también enlaces ya existentes en el grafo junto a los nuevos predichos",
+          "default": false
+        }
+      },
+      "required": [
+        "nodo_o_consulta"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "gnn_auditar_brechas_escrito",
+    "description": "Audita un borrador judicial, demanda o informe detectando las normas chilenas invocadas y sugiriendo con LegalGNN normas concordantes, instituciones dogmáticas y jurisprudencia estructuralmente vinculadas que podrían haberse omitido (requieren cita_texto en BCN).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "texto": {
+          "type": "string",
+          "description": "Texto completo o extracto sustantivo del escrito jurídico a auditar"
+        },
+        "top_k": {
+          "type": "integer",
+          "description": "Máximo de sugerencias normativas a devolver (por defecto 8)",
+          "default": 8
+        }
+      },
+      "required": [
+        "texto"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
     "name": "indicadores_economicos_chile",
     "description": "Consulta valores oficiales de UF, UTM, UTA e IPC desde el SII para una fecha o año, y convierte montos legales chilenos entre CLP, UF, UTM y UTA.",
     "inputSchema": {

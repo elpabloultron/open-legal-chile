@@ -1,11 +1,11 @@
 {
   "name": "open-legal-chile",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Derecho chileno (Civil Law) con fuentes oficiales: 109 herramientas MCP (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos, Mercado Público, CPLT, Diario Oficial, SUSESO, SERNAC, TTA, INAPI), doctrina híbrida, grafo multiplex LegalGraphify, jurimetría y OCR forense. Requiere uv (uvx).",
   "mcpServers": {
     "open-legal-chile": {
       "command": "uvx",
-      "args": ["--from", "openlegal-chile==2.0.0", "openlegal-mcp"],
+      "args": ["--from", "openlegal-chile==2.1.0", "openlegal-mcp"],
       "env": {
         "PYTHONIOENCODING": "utf-8",
         "PYTHONUNBUFFERED": "1"

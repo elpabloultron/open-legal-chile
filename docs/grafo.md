@@ -44,10 +44,10 @@ openlegal graph affected "Art. 1464 CC"                  # impacto normativo en 
 openlegal graph god-nodes 10                             # pilares por PageRank
 ```
 
-Y desde cualquier harness, por MCP (112 herramientas totales, más vista visual vía `app_abrir_grafo`): `graphify_consulta_subgrafo`,
+Y desde cualquier harness, por MCP (114 herramientas totales, más vista visual vía `app_abrir_grafo`): `graphify_consulta_subgrafo`,
 `graphify_trazar_camino` (con `solo_sustantivo=true` para excluir puentes bibliográficos),
 `graphify_explicar_institucion`, `graphify_analizar_impacto`, `graphify_god_nodes`,
-`graphify_resumen_comunidades`, `jurimetria_analizar_corpus`, `jurimetria_exportar_investigacion` —
+`graphify_resumen_comunidades`, `gnn_predecir_enlaces`, `gnn_auditar_brechas_escrito`, `jurimetria_analizar_corpus`, `jurimetria_exportar_investigacion` —
 más `grafo_ver_corpus`, `grafo_ver_caso` y `generar_grafo_vinculos`.
 
 ## Investigación empírica y ahorro de tokens

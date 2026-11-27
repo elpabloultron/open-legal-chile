@@ -70,7 +70,7 @@ def test_ciclo_completo_streamable_http_auth_sse_y_sesiones() -> None:
         assert st == 200
         health = json.loads(raw.decode("utf-8"))
         assert health["status"] == "ok"
-        assert health["tools"] == 112
+        assert health["tools"] == 114
         assert health["auth_enabled"] is True
 
         # 2. 401 sin token y 403 con Origin bloqueado
@@ -114,7 +114,7 @@ def test_ciclo_completo_streamable_http_auth_sse_y_sesiones() -> None:
             headers={**auth_h, "Mcp-Session-Id": sid},
         )
         assert st_list == 200
-        assert len(json.loads(raw_list.decode("utf-8"))["result"]["tools"]) == 112
+        assert len(json.loads(raw_list.decode("utf-8"))["result"]["tools"]) == 114
 
         # 5. tools/call rut_validar_chile (JSON y SSE)
         call_payload = {

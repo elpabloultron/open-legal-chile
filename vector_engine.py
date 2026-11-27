@@ -96,6 +96,7 @@ class SemanticEmbeddingEngine:
         model_path: Optional[str] = None,
         use_fastembed: Optional[bool] = None,
         fastembed_model: str = "intfloat/multilingual-e5-small",
+        use_chile_neural: Optional[bool] = None,
     ):
         self.session = None
         self.dim = EMBEDDING_DIM
@@ -103,9 +104,12 @@ class SemanticEmbeddingEngine:
         self._proj_cache: Dict[str, np.ndarray] = {}
         self._fastembed_model_name = fastembed_model
         self._fastembed_instance: Optional[Any] = None
+        self._chile_neural: Optional[Any] = None
         self.backend = "lexical_random_projection"
 
-        env_neural = os.environ.get("OPENLEGAL_NEURAL_EMBEDDINGS", "").strip().lower() in ("1", "true", "yes")
+        env_raw = os.environ.get("OPENLEGAL_NEURAL_EMBEDDINGS", "").strip().lower()
+        env_neural = env_raw in ("1", "true", "yes")
+        env_disabled = env_raw in ("0", "false", "no")
         wants_fastembed = env_neural if use_fastembed is None else bool(use_fastembed)
 
         if wants_fastembed and is_fastembed_available():
@@ -124,6 +128,19 @@ class SemanticEmbeddingEngine:
             except Exception:  # noqa: BLE001
                 self.session = None
 
+        wants_chile = (not env_disabled) if use_chile_neural is None else bool(use_chile_neural)
+        if self._fastembed_instance is None and self.session is None and wants_chile:
+            try:
+                from neural_retriever import obtener_embedder_chileno
+
+                eng_cl = obtener_embedder_chileno()
+                if eng_cl.modelo_disponible:
+                    self._chile_neural = eng_cl
+                    self.dim = int(eng_cl.dim)
+                    self.backend = eng_cl.backend
+            except Exception:  # noqa: BLE001 — degradación transparente al fallback léxico
+                self._chile_neural = None
+
     def encode(self, texto: str) -> np.ndarray:
         """Genera un vector unitario normalizado de dimensión EMBEDDING_DIM."""
         if not texto or not texto.strip():
@@ -139,6 +156,15 @@ class SemanticEmbeddingEngine:
                     vec_np = vec_np / norma
                 self.dim = int(vec_np.shape[0])
                 return vec_np
+            except Exception:  # noqa: BLE001
+                pass
+
+        # 1b. Backend neuronal chileno local (TF-IDF + SVD + InfoNCE CPU)
+        if self._chile_neural is not None:
+            try:
+                vec_cl = np.asarray(self._chile_neural.encode(texto), dtype=np.float32)
+                if vec_cl.shape[0] == self.dim and float(np.linalg.norm(vec_cl)) > 0:
+                    return vec_cl
             except Exception:  # noqa: BLE001
                 pass
 
@@ -181,6 +207,11 @@ class SemanticEmbeddingEngine:
                 normas = np.linalg.norm(mat, axis=1, keepdims=True)
                 normas[normas == 0] = 1.0
                 return (mat / normas).astype(np.float32)
+            except Exception:  # noqa: BLE001
+                pass
+        if self._chile_neural is not None and textos:
+            try:
+                return np.asarray(self._chile_neural.encode_batch(textos), dtype=np.float32)
             except Exception:  # noqa: BLE001
                 pass
         return np.vstack([self.encode(t) for t in textos])
@@ -484,10 +515,11 @@ class VectorLegalEngine:
             con.close()
 
     def buscar_hibrido(self, query: str, cuerpo_legal: Optional[str] = None, top_k: int = 5,
-                        w_bm25: float = 0.4, w_dense: float = 0.6, k: int = 60) -> List[Dict[str, Any]]:
+                        w_bm25: float = 0.4, w_dense: float = 0.6, k: int = 60,
+                        rerank: bool = True) -> List[Dict[str, Any]]:
         """
-        Búsqueda híbrida Reciprocal Rank Fusion (RRF) combinando sparse FTS5 y dense vectorial.
-        RRF(d) = w_bm25 / (k + rank_bm25) + w_dense / (k + rank_dense)
+        Búsqueda híbrida Reciprocal Rank Fusion (RRF) combinando sparse FTS5 y dense vectorial,
+        refinada opcionalmente con `ChileNeuralReranker`.
         """
         dense_hits = self.buscar_vectorial(query, cuerpo_legal=cuerpo_legal, top_k=top_k * 2)
         sparse_hits = self.buscar_lexica_fts(query, cuerpo_legal=cuerpo_legal, top_k=top_k * 2)
@@ -508,15 +540,32 @@ class VectorLegalEngine:
             if key not in documentos:
                 documentos[key] = doc
 
-        # Ordenar por puntaje RRF descendente
-        ordenados = sorted(puntajes_rrf.items(), key=lambda x: -x[1])[:top_k]
+        pool_n = max(top_k * 2, 10) if rerank else top_k
+        ordenados = sorted(puntajes_rrf.items(), key=lambda x: -x[1])[:pool_n]
 
         resultados = []
         for key, score in ordenados:
             item = dict(documentos[key])
             item["puntaje_rrf"] = round(score, 6)
             resultados.append(item)
-        return resultados
+
+        if rerank and len(resultados) > 1:
+            try:
+                from neural_retriever import obtener_reranker_chileno
+
+                reranker = obtener_reranker_chileno()
+                if reranker.modelo_disponible:
+                    return reranker.rerank(
+                        query,
+                        resultados,
+                        title_key="etiqueta_bcn",
+                        text_key="texto",
+                        top_k=top_k,
+                        peso_neuronal=0.55,
+                    )
+            except Exception:  # noqa: BLE001 — fallback al ranking RRF directo
+                pass
+        return resultados[:top_k]
 
 
 # Instancia singleton para uso rápido

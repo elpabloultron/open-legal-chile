@@ -2,7 +2,7 @@
   "mcpServers": {
     "open-legal-chile": {
       "command": "uvx",
-      "args": ["--from", "openlegal-chile==2.0.0", "openlegal-mcp"],
+      "args": ["--from", "openlegal-chile==2.1.0", "openlegal-mcp"],
       "env": {
         "PYTHONIOENCODING": "utf-8",
         "PYTHONUNBUFFERED": "1",

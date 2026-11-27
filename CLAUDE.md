@@ -18,7 +18,7 @@ Este repositorio es una suite de inteligencia jurídica y servidor Model Context
 
 ```
 open-legal-chile/
-├── mcp_server.py             # Servidor MCP JSON-RPC 2.0 sobre stdio: protocolo, perfiles y ensamblado (112 herramientas)
+├── mcp_server.py             # Servidor MCP JSON-RPC 2.0 sobre stdio: protocolo, perfiles y ensamblado (114 herramientas)
 ├── mcp_http_server.py        # Servidor MCP Streamable HTTP on-premise (/mcp POST/GET SSE/DELETE, /health, Bearer auth)
 ├── mcp_apps/                 # 3 MCP Apps interactivas ui:// compiladas en HTML autocontenido (web_apps/ + mcp_apps_engine.py)
 ├── servidor/                 # Esquemas y despacho de las herramientas, un módulo por dominio

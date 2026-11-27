@@ -108,7 +108,7 @@ No hace falta nombrar una herramienta ni escribir un comando: se pide como se le
 | «Es un caso ambiental» · «Mirá la sanción de la SMA» · «¿Qué dijo el Tribunal Ambiental?» | Se llama el módulo `ambiental_consulta_maestra`: sentencias TA, anuarios, boletines, biblioteca ambiental y doctrina, con texto literal |
 
 El agente **debe** usar `caso_analizar` ante esos pedidos, aunque la persona no nombre ninguna
-herramienta: así el trabajo no depende de que el modelo elija bien entre 112 herramientas. Y cuando
+herramienta: así el trabajo no depende de que el modelo elija bien entre 114 herramientas. Y cuando
 la mesa dice que falta algo (el Rol/RIT, las fechas, el RUT), eso se le pide a la persona **antes**
 de ejecutar: no se completa por deducción.
 
@@ -116,7 +116,7 @@ de ejecutar: no se completa por deducción.
 ClaveÚnica y captcha: la suite no automatiza el acceso a un sistema con credenciales personales. La
 mesa lo dice en sus advertencias y no expone ninguna herramienta que prometa lo contrario.
 
-## 3. Capabilities Summary (112 MCP Tools · 3 MCP Apps `ui://` · 26 Skills · 24 Agents)
+## 3. Capabilities Summary (114 MCP Tools · 3 MCP Apps `ui://` · 26 Skills · 24 Agents)
 Run locally via `openlegal-mcp` (STDIO, *Zero Data Leak*; supports `OPENLEGAL_PROFILE=router` with `descubrir_herramientas` and `invocar_herramienta`) or on-premise via `openlegal-mcp-http` (Streamable HTTP + Bearer auth + Docker). Use `skills_listar`, `agent_list`, `suite_doctor`, `app_abrir_*`, or read the complete tool/skill/agent reference in [docs/referencia-herramientas.md](docs/referencia-herramientas.md).
 
 * **Protocol, Documents & Intake:** `consulta_maestra`, `ambiental_consulta_maestra`, `cita_texto`, `caso_analizar`, `caso_ejecutar`, `busqueda_universal`, `critique_documento`, `generar_documento` (Word `.docx`), `docx_aplicar_redline`, `suite_doctor`.

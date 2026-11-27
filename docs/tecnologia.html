@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tecnología, LegalGraphify y 112 Herramientas MCP · Open Legal Chile</title>
-  <meta name="description" content="Arquitectura local-first y on-premise de Open Legal Chile v2.0.0: servidor MCP STDIO/HTTP con 112 herramientas, 3 MCP Apps interactivas ui://, 24 agentes, 26 skills, LegalGraphify (18.954 nodos / 57.246 aristas) y ChileLegalBench v1.0." />
+  <title>Tecnología, LegalGraphify y 114 Herramientas MCP · Open Legal Chile</title>
+  <meta name="description" content="Arquitectura local-first y on-premise de Open Legal Chile v2.1.0: servidor MCP STDIO/HTTP con 114 herramientas, Bi-Encoder y LegalGNN locales, 3 MCP Apps interactivas ui://, 24 agentes, 26 skills, LegalGraphify y ChileLegalBench v1.0." />
   <link rel="canonical" href="https://elpabloultron.github.io/open-legal-chile/tecnologia.html" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,16 +17,16 @@
   <main>
     <section class="subpage-hero">
       <div class="wrap">
-        <span class="op-eyebrow" style="background:rgba(255,255,255,0.2); color:#062314; border-color:rgba(6,35,20,0.16);">Arquitectura Open Source v2.0.0 · Local-First & On-Premise · Apache 2.0</span>
-        <div><h1>112 herramientas MCP, MCP Apps ui:// y LegalGraphify</h1></div>
+        <span class="op-eyebrow" style="background:rgba(255,255,255,0.2); color:#062314; border-color:rgba(6,35,20,0.16);">Arquitectura Open Source v2.1.0 · Local-First &amp; Neural Soberano · Apache 2.0</span>
+        <div><h1>114 herramientas MCP, Bi-Encoder/LegalGNN y LegalGraphify</h1></div>
         <p>
-          Diseñada para ejecutarse localmente en <em>harnesses</em> de escritorio y terminal (Google Antigravity, Claude Code, Codex, Hermes, Cursor y VS Code) o vía Streamable HTTP en Docker on-premise, con cero servidor externo de terceros y trazabilidad por SHA en Hugging Face.
+          Diseñada para ejecutarse localmente en <em>harnesses</em> de escritorio y terminal (Google Antigravity, Claude Code, Codex, Hermes, Cursor y VS Code) o vía Streamable HTTP en Docker on-premise, con motores neuronales locales en NumPy puro y trazabilidad por SHA en Hugging Face.
         </p>
         <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:20px;">
           <a href="#arquitectura" class="pill hero-ghost sm">Arquitectura Local-First</a>
-          <a href="#novedades-v200" class="pill hero-ghost sm">Novedades v2.0.0 (MCP Apps, HTTP &amp; Bench)</a>
+          <a href="#novedades-v200" class="pill hero-ghost sm">Novedades v2.1.0 (Neural, GNN &amp; MCP Apps)</a>
           <a href="#parquet" class="pill hero-ghost sm">5 Tablas Parquet + DuckDB</a>
-          <a href="#catalogo-mcp" class="pill hero-ghost sm">112 Herramientas MCP</a>
+          <a href="#catalogo-mcp" class="pill hero-ghost sm">114 Herramientas MCP</a>
           <a href="#agentes" class="pill hero-ghost sm">24 Agentes</a>
           <a href="capacitaciones.html?servicio=Bootcamp+e+Implementaci%C3%B3n+Privada+On-Premise#cotizacion" class="pill white sm">Pide tu cotización (On-Premise) →</a>
         </div>
@@ -75,27 +75,27 @@
 
     <section class="op-sec" id="novedades-v200">
       <div class="wrap">
-        <span class="op-eyebrow">Release v2.0.0 · 3 MCP Apps · On-Premise HTTP/Docker · ChileLegalBench v1.0</span>
-        <h2 class="fhead">Novedades v2.0.0: interfaces <code>ui://</code>, servidor HTTP y benchmark reproducible</h2>
+        <span class="op-eyebrow">Release v2.1.0 · Redes Neuronales Chilenas (Bi-Encoder + LegalGNN) · MCP Apps · HTTP/Docker</span>
+        <h2 class="fhead">Novedades v2.1.0: Bi-Encoder + Reranker chileno, LegalGNN Link Predictor y MCP Apps</h2>
         <p class="fsub">
-          Verificado por <strong>1.296 pruebas automatizadas</strong>, <strong>Auditoría 360° 4/4</strong> (Bandit, Semgrep, Detect-Secrets, Mypy 250 archivos, Ruff, Vulture, Radon), arranque STDIO de <code>22,60 ms</code> y paquete <code>open-legal-chile-2.0.0.mcpb</code> en GitHub Releases.
+          Incorpora dos modelos neuronales entrenados sobre Derecho chileno en NumPy puro (<code>5,719 MB</code> en <code>allow_pickle=False</code>): <strong>Bi-Encoder Contrastivo + Reranker</strong> (<code>93,63 %</code> Recall@1 held-out vs. <code>81,45 %</code> léxico) y <strong>LegalGNN Link Predictor</strong> sobre <code>31.600</code> nodos (<code>AUC = 0,8660</code> vs. <code>0,6915</code> Adamic-Adar), junto al servidor HTTP, 3 MCP Apps y ChileLegalBench (<code>105/105</code>).
         </p>
 
         <ul class="tr-grid" style="margin-bottom:28px;">
           <li>
-            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">MCP APPS (SEP-1865)</div>
-            <h3 class="tr-title">3 vistas HTML interactivas <code>ui://</code></h3>
-            <p class="tr-body"><code>app_abrir_grafo</code>, <code>app_abrir_calculadoras</code> y <code>app_abrir_expediente</code> cargan paneles HTML autocontenidos (<code>&le; 600 KB</code>, cero CDN, sin <code>innerHTML</code> dinámico) conectados vía <code>structuredContent</code> y <code>callServerTool</code>.</p>
+            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">RETRIEVAL NEURAL (V2.1.0)</div>
+            <h3 class="tr-title">Bi-Encoder + Reranker Chileno</h3>
+            <p class="tr-body"><code>chile_embed_v1.npz</code> (<code>2,740 MB</code>, InfoNCE + <em>title-dropout</em>) integrado en <code>vector_engine.py</code> y <code>doctrina_connector.py</code>: eleva <code>Recall@1</code> a <code>93,63 %</code> (<code>MRR = 0,9548</code>) con soporte ONNX opcional.</p>
           </li>
           <li>
-            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">STREAMABLE HTTP + DOCKER</div>
-            <h3 class="tr-title">Despliegue On-Premise seguro</h3>
-            <p class="tr-body"><code>openlegal-mcp-http</code> (stdlib pura, <code>POST/GET SSE/DELETE /mcp</code>) con sesiones <code>Mcp-Session-Id</code>, autenticación Bearer en tiempo constante, allowlist de <code>Origin</code>, <code>Dockerfile</code> no-root y <code>docker-compose.yml</code> read-only.</p>
+            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">LEGALGNN LINK PREDICTOR (V2.1.0)</div>
+            <h3 class="tr-title">Predicción de Concordancias y Brechas</h3>
+            <p class="tr-body"><code>legal_gnn_v1.npz</code> (<code>2,979 MB</code>, DistMult int8 sobre <code>172.608</code> aristas, <code>AUC = 0,8660</code> · <code>Hits@10 = 63,00 %</code>) alimenta <code>gnn_predecir_enlaces</code>, <code>gnn_auditar_brechas_escrito</code> y modo <em>Goldfish</em>.</p>
           </li>
           <li>
-            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">PAQUETE 1-CLIC (.MCPB)</div>
-            <h3 class="tr-title">Instalación instantánea</h3>
-            <p class="tr-body">Bundle determinista validado con <code>openlegal mcpb</code> y publicado en <a href="https://github.com/elpabloultron/open-legal-chile/releases/download/v2.0.0/open-legal-chile-2.0.0.mcpb" style="color:var(--green); text-decoration:underline;">GitHub Releases v2.0.0</a> junto al wheel y tarball de PyPI.</p>
+            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">MCP APPS + ON-PREMISE HTTP</div>
+            <h3 class="tr-title">3 vistas <code>ui://</code> &amp; Docker</h3>
+            <p class="tr-body"><code>app_abrir_grafo</code>, <code>app_abrir_calculadoras</code> y <code>app_abrir_expediente</code> (<code>&le; 600 KB</code>, sin CDN) más <code>openlegal-mcp-http</code> Bearer auth y paquete 1-clic <a href="https://github.com/elpabloultron/open-legal-chile/releases/download/v2.1.0/open-legal-chile-2.1.0.mcpb" style="color:var(--green); text-decoration:underline;"><code>v2.1.0.mcpb</code></a>.</p>
           </li>
           <li>
             <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">CHILELEGALBENCH V1.0</div>
@@ -127,9 +127,10 @@
         </div>
 
         <div style="display:flex; flex-wrap:wrap; gap:10px;">
+          <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/modelos_neuronales.md" target="_blank" rel="noreferrer" class="pill ghost sm">Arquitectura Neural (Bi-Encoder + LegalGNN) →</a>
           <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/despliegue-on-premise.md" target="_blank" rel="noreferrer" class="pill ghost sm">Guía On-Premise Docker &amp; HTTP →</a>
           <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/chile_legal_bench.md" target="_blank" rel="noreferrer" class="pill ghost sm">Metodología ChileLegalBench v1.0 →</a>
-          <a href="https://github.com/elpabloultron/open-legal-chile/releases/download/v2.0.0/open-legal-chile-2.0.0.mcpb" class="pill primary sm">Descargar v2.0.0 (.mcpb) →</a>
+          <a href="https://github.com/elpabloultron/open-legal-chile/releases/download/v2.1.0/open-legal-chile-2.1.0.mcpb" class="pill primary sm">Descargar v2.1.0 (.mcpb) →</a>
         </div>
       </div>
     </section>
@@ -205,8 +206,8 @@ print(duckdb.read_parquet(url).select("parentesco, total_casos, mediana_uf_pi, m
     <section class="op-sec" id="catalogo-mcp">
       <div class="wrap">
         <span class="op-eyebrow">Servidor MCP · mcp_server.TOOLS</span>
-        <h2 class="fhead">Catálogo completo de las 112 herramientas MCP</h2>
-        <p class="fsub">Filtra por dominio o busca por nombre para inspeccionar todas las capacidades de la versión 2.0.0.</p>
+        <h2 class="fhead">Catálogo completo de las 114 herramientas MCP</h2>
+        <p class="fsub">Filtra por dominio o busca por nombre para inspeccionar todas las capacidades de la versión 2.1.0.</p>
 
         <div class="filter-bar">
           <input type="search" id="toolsSearchInput" class="form-control" style="max-width:340px;" placeholder="Buscar herramienta (ej. jurimetria, sma, bcn, cgr)..." aria-label="Buscar herramienta MCP" />

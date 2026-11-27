@@ -27,7 +27,7 @@ include .dockerignore
 recursive-include evals *.py *.json
 recursive-include references *.md
 recursive-include scripts *.py
-recursive-include data *.json *.jsonl
+recursive-include data *.json *.jsonl *.npz
 include mapa_corpus/puntero.json
 include mapa_corpus/constraints-constructor.txt
 prune web_apps/node_modules
